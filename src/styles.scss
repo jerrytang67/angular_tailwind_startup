@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply px-5 py-6 shadow-sm rounded-md bg-white overflow-hidden relative;
+}
+
+.zoom-in {
+  @apply transform transition ease-in-out duration-300;
+}
+
+.zoom-in:hover {
+  @apply scale-110;
+}
