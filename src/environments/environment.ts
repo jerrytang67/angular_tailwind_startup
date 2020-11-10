@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  enablePurge: true
+  enablePurge: false
 };
 
 /*
